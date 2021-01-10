@@ -1,0 +1,39 @@
+PROGRAM -> ( BLOCK ) * '.'
+
+BLOCK           -> ( ( VAR_BLOCK )? CODE_BLOCK )+
+VAR_BLOCK       -> ( ARRAY_DECL | VARIABLE_DECL )+
+CODE_BLOCK      -> 'begin' ( INSTRUCTION )* 'end' ( ';' )?
+
+VARIABLE_DECL   -> ( ( ID ','? )+ ':' TYPE ';'
+ARRAY_DECL      -> ( ID ','? )+ ':' ARRAY '[' INT '..' INT ']' 'of' TYPE ';'
+ARRAY_ELEM      -> ID ( '[' ( EXPR ) ']' )+
+VARIABLE_ASSIGN -> ( ID ':= EXPR )
+
+PROCEDURE_IMPL  -> PROCEDURE ID '(' PARAMS ')' BLOCK
+PROCEDURE_CALL  -> ID '(' ARGS ')'
+
+PARAMS          -> ( ( ( ID ','? ) + ':' TYPE )?
+ARGS            -> ( EXPR )? ( ',' EXPR )*
+
+INSTRUCTION     -> ( VARIABLE_ASSIGN | PROCEDURE_CALL | FUNCTION_CALL | STATEMENT ) ';'
+JUMP            -> ( 'break' | 'continue' ) ';'
+
+STATEMENT       -> ( STAT_IF | STAT_WHILE | STAT_FOR | STAT_REPEAT )
+STAT_IF         -> ( 'if' LOGIC_EXPR 'then' ) BLOCK ( 'else' BLOCK )?
+STAT_WHILE      -> ( 'while' LOGIC_EXPR 'do' ) BLOCK
+STAT_FOR        -> ( 'for' VARIABLE_ASSIGN 'to' EXPR ) BLOCK
+STAT_REPE       -> 'repeat' INSTRUCTION* 'until' LOGIC_EXPR ';'
+
+EXPR            -> TERM ( ( '+' | '-' ) TERM )*
+TERM            -> FACT ( ( '*' | '/' | 'mod' | 'div' ) FACT )*
+FACT            -> ( '-' )? ( CONST | ID | ARRAY_ELEM | FUNC_CALL | '(' EXPR ')' )
+
+LOGIC_EXPR      -> LOGIC_OR ( ( '=' | '<>' | '<' | '>' | '<=' | '>=' ) LOGIC_OR )*
+LOGIC_OR        -> LOGIC_AND ( 'or' LOGIC_AND )*
+LOGIC_XOR       -> LOGIC_AND ( 'or' LOGIC_AND )*
+LOGIC_AND       -> LOGIC_FACT ( 'and' LOGIC_FACT )*
+LOGIC_FACT      -> ( 'not' )? ( ID | '(' LOGIC_EXPR ')' )
+
+TYPE            -> ( 'integer' | 'real' | 'char' | 'boolean' | 'string' )
+NUMBER          -> ( 'integer' | 'real' )
+CONST           -> ( NUMBER | STRING | BOOLEAN | CHAR )

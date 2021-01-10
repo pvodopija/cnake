@@ -1,0 +1,399 @@
+digraph {
+	node [height=0.1 shape=box]
+	edge [arrowsize=0.5]
+	node1 [label=Program]
+	node2 [label=Block]
+	node1 -> node2
+	node3 [label=VarBlock]
+	node2 -> node3
+	node4 [label=ArrayDecl]
+	node3 -> node4
+	node5 [label="Type : int"]
+	node4 -> node5
+	node6 [label="Id : niz"]
+	node4 -> node6
+	node7 [label="Int : 100"]
+	node4 -> node7
+	node8 [label=Elems]
+	node4 -> node8
+	node9 [label="Int : 0"]
+	node8 -> node9
+	node10 [label="Int : 0"]
+	node8 -> node10
+	node11 [label="Int : 0"]
+	node8 -> node11
+	node12 [label="Int : 0"]
+	node8 -> node12
+	node13 [label="Int : 0"]
+	node8 -> node13
+	node14 [label="Int : 0"]
+	node8 -> node14
+	node15 [label="Int : 0"]
+	node8 -> node15
+	node16 [label="Int : 0"]
+	node8 -> node16
+	node17 [label="Int : 0"]
+	node8 -> node17
+	node18 [label="Int : 0"]
+	node8 -> node18
+	node19 [label="Int : 0"]
+	node8 -> node19
+	node20 [label="Int : 0"]
+	node8 -> node20
+	node21 [label="Int : 0"]
+	node8 -> node21
+	node22 [label="Int : 0"]
+	node8 -> node22
+	node23 [label="Int : 0"]
+	node8 -> node23
+	node24 [label="Int : 0"]
+	node8 -> node24
+	node25 [label="Int : 0"]
+	node8 -> node25
+	node26 [label="Int : 0"]
+	node8 -> node26
+	node27 [label="Int : 0"]
+	node8 -> node27
+	node28 [label="Int : 0"]
+	node8 -> node28
+	node29 [label="Int : 0"]
+	node8 -> node29
+	node30 [label="Int : 0"]
+	node8 -> node30
+	node31 [label="Int : 0"]
+	node8 -> node31
+	node32 [label="Int : 0"]
+	node8 -> node32
+	node33 [label="Int : 0"]
+	node8 -> node33
+	node34 [label="Int : 0"]
+	node8 -> node34
+	node35 [label="Int : 0"]
+	node8 -> node35
+	node36 [label="Int : 0"]
+	node8 -> node36
+	node37 [label="Int : 0"]
+	node8 -> node37
+	node38 [label="Int : 0"]
+	node8 -> node38
+	node39 [label="Int : 0"]
+	node8 -> node39
+	node40 [label="Int : 0"]
+	node8 -> node40
+	node41 [label="Int : 0"]
+	node8 -> node41
+	node42 [label="Int : 0"]
+	node8 -> node42
+	node43 [label="Int : 0"]
+	node8 -> node43
+	node44 [label="Int : 0"]
+	node8 -> node44
+	node45 [label="Int : 0"]
+	node8 -> node45
+	node46 [label="Int : 0"]
+	node8 -> node46
+	node47 [label="Int : 0"]
+	node8 -> node47
+	node48 [label="Int : 0"]
+	node8 -> node48
+	node49 [label="Int : 0"]
+	node8 -> node49
+	node50 [label="Int : 0"]
+	node8 -> node50
+	node51 [label="Int : 0"]
+	node8 -> node51
+	node52 [label="Int : 0"]
+	node8 -> node52
+	node53 [label="Int : 0"]
+	node8 -> node53
+	node54 [label="Int : 0"]
+	node8 -> node54
+	node55 [label="Int : 0"]
+	node8 -> node55
+	node56 [label="Int : 0"]
+	node8 -> node56
+	node57 [label="Int : 0"]
+	node8 -> node57
+	node58 [label="Int : 0"]
+	node8 -> node58
+	node59 [label="Int : 0"]
+	node8 -> node59
+	node60 [label="Int : 0"]
+	node8 -> node60
+	node61 [label="Int : 0"]
+	node8 -> node61
+	node62 [label="Int : 0"]
+	node8 -> node62
+	node63 [label="Int : 0"]
+	node8 -> node63
+	node64 [label="Int : 0"]
+	node8 -> node64
+	node65 [label="Int : 0"]
+	node8 -> node65
+	node66 [label="Int : 0"]
+	node8 -> node66
+	node67 [label="Int : 0"]
+	node8 -> node67
+	node68 [label="Int : 0"]
+	node8 -> node68
+	node69 [label="Int : 0"]
+	node8 -> node69
+	node70 [label="Int : 0"]
+	node8 -> node70
+	node71 [label="Int : 0"]
+	node8 -> node71
+	node72 [label="Int : 0"]
+	node8 -> node72
+	node73 [label="Int : 0"]
+	node8 -> node73
+	node74 [label="Int : 0"]
+	node8 -> node74
+	node75 [label="Int : 0"]
+	node8 -> node75
+	node76 [label="Int : 0"]
+	node8 -> node76
+	node77 [label="Int : 0"]
+	node8 -> node77
+	node78 [label="Int : 0"]
+	node8 -> node78
+	node79 [label="Int : 0"]
+	node8 -> node79
+	node80 [label="Int : 0"]
+	node8 -> node80
+	node81 [label="Int : 0"]
+	node8 -> node81
+	node82 [label="Int : 0"]
+	node8 -> node82
+	node83 [label="Int : 0"]
+	node8 -> node83
+	node84 [label="Int : 0"]
+	node8 -> node84
+	node85 [label="Int : 0"]
+	node8 -> node85
+	node86 [label="Int : 0"]
+	node8 -> node86
+	node87 [label="Int : 0"]
+	node8 -> node87
+	node88 [label="Int : 0"]
+	node8 -> node88
+	node89 [label="Int : 0"]
+	node8 -> node89
+	node90 [label="Int : 0"]
+	node8 -> node90
+	node91 [label="Int : 0"]
+	node8 -> node91
+	node92 [label="Int : 0"]
+	node8 -> node92
+	node93 [label="Int : 0"]
+	node8 -> node93
+	node94 [label="Int : 0"]
+	node8 -> node94
+	node95 [label="Int : 0"]
+	node8 -> node95
+	node96 [label="Int : 0"]
+	node8 -> node96
+	node97 [label="Int : 0"]
+	node8 -> node97
+	node98 [label="Int : 0"]
+	node8 -> node98
+	node99 [label="Int : 0"]
+	node8 -> node99
+	node100 [label="Int : 0"]
+	node8 -> node100
+	node101 [label="Int : 0"]
+	node8 -> node101
+	node102 [label="Int : 0"]
+	node8 -> node102
+	node103 [label="Int : 0"]
+	node8 -> node103
+	node104 [label="Int : 0"]
+	node8 -> node104
+	node105 [label="Int : 0"]
+	node8 -> node105
+	node106 [label="Int : 0"]
+	node8 -> node106
+	node107 [label="Int : 0"]
+	node8 -> node107
+	node108 [label="Int : 0"]
+	node8 -> node108
+	node109 [label=Decl]
+	node3 -> node109
+	node110 [label="Type : int"]
+	node109 -> node110
+	node111 [label="Id : i"]
+	node109 -> node111
+	node112 [label=Decl]
+	node3 -> node112
+	node113 [label="Type : int"]
+	node112 -> node113
+	node114 [label="Id : j"]
+	node112 -> node114
+	node115 [label=Decl]
+	node3 -> node115
+	node116 [label="Type : int"]
+	node115 -> node116
+	node117 [label="Id : n"]
+	node115 -> node117
+	node118 [label=Decl]
+	node3 -> node118
+	node119 [label="Type : int"]
+	node118 -> node119
+	node120 [label="Id : temp"]
+	node118 -> node120
+	node121 [label=CodeBlock]
+	node2 -> node121
+	node122 [label=FuncCall]
+	node121 -> node122
+	node123 [label="Id : readln"]
+	node122 -> node123
+	node124 [label=Args]
+	node122 -> node124
+	node125 [label="Id : n"]
+	node124 -> node125
+	node126 [label=For]
+	node121 -> node126
+	node127 [label=Assign]
+	node126 -> node127
+	node128 [label="Id : i"]
+	node127 -> node128
+	node129 [label="Int : 1"]
+	node127 -> node129
+	node130 [label="Id : n"]
+	node126 -> node130
+	node131 [label=Block]
+	node126 -> node131
+	node132 [label=CodeBlock]
+	node131 -> node132
+	node133 [label=FuncCall]
+	node132 -> node133
+	node134 [label="Id : read"]
+	node133 -> node134
+	node135 [label=Args]
+	node133 -> node135
+	node136 [label=ArrayElem]
+	node135 -> node136
+	node137 [label="Id : niz"]
+	node136 -> node137
+	node138 [label="Id : i"]
+	node136 -> node138
+	node139 [label=For]
+	node121 -> node139
+	node140 [label=Assign]
+	node139 -> node140
+	node141 [label="Id : i"]
+	node140 -> node141
+	node142 [label="Int : 1"]
+	node140 -> node142
+	node143 [label="Id : n"]
+	node139 -> node143
+	node144 [label=Block]
+	node139 -> node144
+	node145 [label=CodeBlock]
+	node144 -> node145
+	node146 [label=For]
+	node145 -> node146
+	node147 [label=Assign]
+	node146 -> node147
+	node148 [label="Id : j"]
+	node147 -> node148
+	node149 [label="BinOp : +"]
+	node147 -> node149
+	node150 [label="Id : i"]
+	node149 -> node150
+	node151 [label="Int : 1"]
+	node149 -> node151
+	node152 [label="Id : n"]
+	node146 -> node152
+	node153 [label=Block]
+	node146 -> node153
+	node154 [label=CodeBlock]
+	node153 -> node154
+	node155 [label=If]
+	node154 -> node155
+	node156 [label="BinOp : <="]
+	node155 -> node156
+	node157 [label=ArrayElem]
+	node156 -> node157
+	node158 [label="Id : niz"]
+	node157 -> node158
+	node159 [label="Id : i"]
+	node157 -> node159
+	node160 [label=ArrayElem]
+	node156 -> node160
+	node161 [label="Id : niz"]
+	node160 -> node161
+	node162 [label="Id : j"]
+	node160 -> node162
+	node163 [label=Block]
+	node155 -> node163
+	node164 [label=CodeBlock]
+	node163 -> node164
+	node165 [label=Continue]
+	node164 -> node165
+	node166 [label=Block]
+	node155 -> node166
+	node167 [label=CodeBlock]
+	node166 -> node167
+	node168 [label=Assign]
+	node167 -> node168
+	node169 [label="Id : temp"]
+	node168 -> node169
+	node170 [label=ArrayElem]
+	node168 -> node170
+	node171 [label="Id : niz"]
+	node170 -> node171
+	node172 [label="Id : i"]
+	node170 -> node172
+	node173 [label=Assign]
+	node167 -> node173
+	node174 [label=ArrayElem]
+	node173 -> node174
+	node175 [label="Id : niz"]
+	node174 -> node175
+	node176 [label="Id : i"]
+	node174 -> node176
+	node177 [label=ArrayElem]
+	node173 -> node177
+	node178 [label="Id : niz"]
+	node177 -> node178
+	node179 [label="Id : j"]
+	node177 -> node179
+	node180 [label=Assign]
+	node167 -> node180
+	node181 [label=ArrayElem]
+	node180 -> node181
+	node182 [label="Id : niz"]
+	node181 -> node182
+	node183 [label="Id : j"]
+	node181 -> node183
+	node184 [label="Id : temp"]
+	node180 -> node184
+	node185 [label=For]
+	node121 -> node185
+	node186 [label=Assign]
+	node185 -> node186
+	node187 [label="Id : i"]
+	node186 -> node187
+	node188 [label="Int : 1"]
+	node186 -> node188
+	node189 [label="Id : n"]
+	node185 -> node189
+	node190 [label=Block]
+	node185 -> node190
+	node191 [label=CodeBlock]
+	node190 -> node191
+	node192 [label=FuncCall]
+	node191 -> node192
+	node193 [label="Id : write"]
+	node192 -> node193
+	node194 [label=Args]
+	node192 -> node194
+	node195 [label=ArrayElem]
+	node194 -> node195
+	node196 [label="Id : niz"]
+	node195 -> node196
+	node197 [label="Id : i"]
+	node195 -> node197
+	node198 [label="Char :  "]
+	node194 -> node198
+}
