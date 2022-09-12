@@ -1,5 +1,5 @@
 # cnake
-This tool takes a [Pascal source file](pas/), does the following: <br/>
+This tool takes a [Pascal source file](pas), does the following: <br/>
 <ul>
 <li>Lexical analysis</li>
 <li>Creates a Parsing Tree</li>
