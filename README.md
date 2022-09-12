@@ -4,7 +4,7 @@ This tool takes a [Pascal source file](pas/), does the following: <br/>
 <li>Lexical analysis</li>
 <li>Creates a Parsing Tree</li>
 <li>Semantic analysis</li>
-<li>Translates to [output.c](https://github.com/pvodopija/cnake/blob/master/output.c)</li>
+<li>Translates to output.c</li>
 <li>Finally, runs the program</li>
 
 
